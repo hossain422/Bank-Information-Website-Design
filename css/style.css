@@ -1,0 +1,237 @@
+.bg{
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    width: 100%;
+}
+.bank{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+     background: #2C2A28;
+     width: 100%;
+}
+footer{
+    background: #2C2A28;
+    width: 100%;
+    color: rgb(170, 169, 169);
+    padding: 10px;
+}
+
+
+@media(max-width:1000px) {
+    header{
+        width: 960px;
+    }
+    .navbar{
+        width: 960px;
+    }
+    footer{
+        width:960px;
+    }
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    padding: 10px;
+}
+
+ .logo{
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .top_nav ul{
+     display: inline-flex;
+     margin-top: 20px;
+ }
+.top_nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+.top_nav ul li a{
+    text-decoration: none;
+    color: #796d62;
+}
+.top_nav ul li a:hover{
+    color: #bebbb8;
+}
+.navbar{
+    background: #3A362F;
+    border-top: 1px solid rgb(139, 138, 138);
+    padding: 0 !important;
+}
+.main_nav ul li{
+    list-style: none;
+}
+.main_nav ul{
+    padding: 0;
+    padding-top: 15px;
+}
+.main_nav ul li a{
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 5px;
+    color: #9d8e7f;
+    border-radius: 3px;
+}
+.main_nav ul li a:hover{
+    color: #ddd;
+    background: #636363;ooooooo
+}
+.main_nav ul li ul{
+    width: 300px;
+    background: #2C2A28;
+    opacity: .95;
+}
+.main_nav ul li ul li{
+    padding: 5px 10px;
+}
+.main_nav ul li ul li:hover{
+    background: #636363;
+    color: #ddd;
+}
+
+.main_nav ul li ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 5px;
+    color: rgb(189, 189, 189);
+    border-radius: 3px;
+}
+.main_nav ul li .sub_menu ul li a:hover{
+    color: none; 
+    background: none;
+}
+.main_nav ul li .sub_menu ul{
+    padding-top: 15px;
+    display: none;
+    margin-top: 5px;
+}
+.main_nav ul li:hover .sub_menu ul{
+    display: block;
+    position: absolute;
+}
+.body_part{
+    width: 640px; 
+}
+.featured{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+.featured .loan img{
+    width: 48px;
+    height: 40px;
+}
+.featured .loan a{
+    text-decoration: none;
+}
+.featured .loan h6{
+    color: #817134;
+    margin-bottom: 0;
+}
+
+.featured table tr td a img{
+    width: 48px;
+    height: 45px;
+}
+.block_1{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+.block_1 ul{
+    padding: 0;
+}
+.block_1 ul li{
+    list-style: none;
+    background: #636363;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+.block_1 ul li:hover{
+    background: #3A362F;
+}
+.block_1 ul li a{
+    text-decoration: none;
+    color: #ddd;
+}
+.block_1 ul li form input{
+    outline: none;
+}
+.block_2{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+.block_2 ul li a{
+    text-decoration: none;
+}
+.block_2 ul li a:hover{
+    text-decoration: underline;
+}
+.block_3{
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+.block_3 ul li a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+.block_3 ul li a:hover{
+    text-decoration: underline;
+    color: #ddd;
+}
+.bank_info{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+.bank_header .bank_logo img{
+    width: 100px;
+    height: 95px;
+}
+.bank_header nav{
+    background: #999999;
+    margin-top: 20px;
+}
+.bank_header nav ul{
+    display: inline-flex;
+    padding: 0;
+    margin-top: 20px;
+}
+.bank_header nav ul li{
+    list-style: none;
+}
+.bank_header nav ul li a{
+    text-decoration: none;
+    color: #ddd;
+    background: #3A362F;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.bank_header nav ul li a.active{
+    background: rgb(11 89 172);
+}
+.bank_header nav ul li a:hover{
+    background: #6e6e6e;
+    color: #000;
+}
+.single_post img{
+    width: 86px;
+    height: 75px;
+}
+.single_post a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(247, 99, 30);
+}
+.single_post a:hover{
+    color: rgb(2, 87, 245);
+}
+.bank_body h1{
+    color: rgb(247, 99, 30);
+}
